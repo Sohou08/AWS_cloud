@@ -19,4 +19,4 @@ sudo yum install -y --nogpgcheck rstudio-server-rhel-1.1.383-x86_64.rpm
 sudo useradd username
 echo username:password | sudo chpasswd
 
-#Note: Donùt forget to add the port of R(8787) in order to allow the inbound of this one
+#Note: Don'T forget to add the port of R(8787) in order to allow the inbound of this one
