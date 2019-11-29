@@ -3,7 +3,7 @@
 
 #!/bin/bash
 
-#Update any software in youur instance#
+#Update any software in your instance#
 
 sudo yum update -y
 
