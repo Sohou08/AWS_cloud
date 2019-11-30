@@ -1,8 +1,8 @@
 
-Purpose: Set up an Jump box (public instance) in AWS allowing to access in your instance private across the NAT instance.
+__#Purpose: Set up an Jump box (public instance) in AWS allowing to access in your instance private across the NAT instance__
 
 ```{r}
-Step 1 : Environment requirement ( Create VPC, subnet, IGW, Elastic IP, Instances)
+#Step 1 : Environment requirement ( Create VPC, subnet, IGW, Elastic IP, Instances)
 ```
 
 •	Create VPC ,one public subnet and IGW 
@@ -17,7 +17,7 @@ For that, Create first one route table, go to <edit route table association >, c
 ![2](https://user-images.githubusercontent.com/51121757/69834390-f9b04e00-1231-11ea-9d10-6a2dfcaf981b.PNG)
 
 ```{r}
-Step 2. Set up 3 instances (private, Jump box and NAT instance)
+#Step 2. Set up 3 instances (private, Jump box and NAT instance)
 ```
 •	Jump box (Possible to add Elastic IP for more flexibility of your instance)
 Note: During set up of the publics instances, IP address will get by choice enable
@@ -46,7 +46,7 @@ In this instance, you need tick these statements following :
 ![6](https://user-images.githubusercontent.com/51121757/69834408-1056a500-1232-11ea-8ccb-74cce9d3cbee.PNG)
 
 ```{r}
-Step 3. Checking If it’s work or not by pinging google.com in Ubuntu console
+#Step 3. Checking If it’s work or not by pinging google.com in Ubuntu console
 ```
 • First access in your local directory of Key < JB_key.pem >
 
