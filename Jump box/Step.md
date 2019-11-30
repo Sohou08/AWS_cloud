@@ -12,7 +12,7 @@ __Step 1 : Environment requirement ( Create VPC, subnet, IGW, Elastic IP, Instan
 
 * Private Subnet will be attached to the NAT instance. 
 
-For that, Create first one route table, go to <edit route table association >, choice the previous route table Then this one will be replace by the NAT instance that you create after. Thus, you obtain something look like in the red box.
+For that, Create first one route table, go to "edit route table association", choice the previous route table. Then this one will be replace by the NAT instance that you create after. Thus, you obtain something look like in the red box.
 
 ![2](https://user-images.githubusercontent.com/51121757/69834390-f9b04e00-1231-11ea-9d10-6a2dfcaf981b.PNG)
 
