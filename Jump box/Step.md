@@ -1,5 +1,5 @@
 
-__#Purpose: Set up an Jump box (public instance) in AWS allowing to access in your instance private across the NAT instance__
+__Purpose: Set up an Jump box (public instance) in AWS allowing to access in your instance private across the NAT instance__
 
 ```{r}
 #Step 1 : Environment requirement ( Create VPC, subnet, IGW, Elastic IP, Instances)
