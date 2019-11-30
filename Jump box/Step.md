@@ -20,7 +20,11 @@ For that, Create first one route table, go to <edit route table association >, c
 Step 2. Set up 3 instances (private, Jump box and NAT instance)
 ```
 •	Jump box (Possible to add Elastic IP for more flexibility of your instance)
-For getting IP 
+Note: During set up of the publics instances, IP address will get by choice enable
+on <Auto-assign Public IP>
+  
+![8](https://user-images.githubusercontent.com/51121757/69897369-12f4ef80-1343-11ea-9908-d2fd3698d8ff.PNG)
+
 
 ![3](https://user-images.githubusercontent.com/51121757/69834395-00d75c00-1232-11ea-98eb-0552028c4570.PNG)
 
