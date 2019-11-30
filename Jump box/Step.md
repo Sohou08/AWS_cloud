@@ -31,7 +31,7 @@ on <Auto-assign Public IP>
 ![3](https://user-images.githubusercontent.com/51121757/69834395-00d75c00-1232-11ea-98eb-0552028c4570.PNG)
 
 
-* NAT instance: Possibility to add Elastic IP for more flexibility of your instance. If not during Set up
+* NAT instance: Possibility to add Elastic IP for more flexibility of your instance. 
 
 In AWS management console, Choice EC2 then Launch instance.
 In the left navigation pane, choice community and search <amzn-ami-vpc-nat>, take in preference the first. Normally you obtain something in below :
