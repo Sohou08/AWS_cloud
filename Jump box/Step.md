@@ -1,5 +1,5 @@
 
-##Purpose: Set up an Jump box (public instance) in AWS allowing to access in your instance private
+___Purpose: Set up an Jump box (public instance) in AWS allowing to access in your instance private___
 
 ```{r}
 __STEP 1 : Environment requirement ( Create VPC, subnet, IGW, Elastic IP, Instances)__
