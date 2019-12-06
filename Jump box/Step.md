@@ -5,11 +5,12 @@
 ```{r}
 
 * Create VPC ,one public subnet and IGW 
-*	Public subnet will attached to internet gateway (IGW) 
+* Public subnet will attached to internet gateway (IGW) 
 ```
 
 
 ![1](https://user-images.githubusercontent.com/51121757/69834360-c077de00-1231-11ea-9d16-1616a0f32df2.PNG)
+
 
 ```{r}
 * Private Subnet will be attached to the NAT instance. 
@@ -29,7 +30,6 @@ Note: During set up of the publics instances, IP address will get by choice enab
 on <Auto-assign Public IP>
 ```
 
-  
 ![8](https://user-images.githubusercontent.com/51121757/69897369-12f4ef80-1343-11ea-9908-d2fd3698d8ff.PNG)
 
 
@@ -44,7 +44,6 @@ In AWS management console, Choice EC2 then Launch instance.
 In the left navigation pane, choice community and search <amzn-ami-vpc-nat>, take in preference the first. Normally you obtain something in below :
 ```
 
-
 ![4](https://user-images.githubusercontent.com/51121757/69834399-0765d380-1232-11ea-8479-3d1b176f3c73.PNG)
 
 ```{r}
@@ -53,11 +52,13 @@ In this instance, you need tick these statements following :
 
 ![5](https://user-images.githubusercontent.com/51121757/69834402-0c2a8780-1232-11ea-96db-7c87a1d60b74.PNG)
 
+
 ```{r}
 * Private Instance
 ```
 
 ![6](https://user-images.githubusercontent.com/51121757/69834408-1056a500-1232-11ea-8ccb-74cce9d3cbee.PNG)
+
 
 #### STEP 3. Checking If it’s work or not by pinging google.com in Ubuntu console ####
 ```{r}
@@ -91,5 +92,6 @@ ssh -i "JB_key.pem" ec2-user@<IP address private instance>
 ping google.com
 
 ```
+
 
 ![7](https://user-images.githubusercontent.com/51121757/69834414-15b3ef80-1232-11ea-86e4-6989c31d9903.PNG)
