@@ -18,8 +18,19 @@ For each component (red box),
 ![16](https://user-images.githubusercontent.com/51121757/70649678-8e10ac80-1c45-11ea-815f-7bdfa5775f93.PNG)
 ![17](https://user-images.githubusercontent.com/51121757/70649781-bb5d5a80-1c45-11ea-98bd-90b78ac8977a.PNG)
 
-Note: Possibilty to get some warning after all these step below.
 
+```{r}
+Note: Possibilty to get some warning after all these step below.
+Just follow the statement given by the warning. 
+For enabling the DNS hostname, Go to Action/Edit DNS hostname and click to enable.
+```
+
+![18](https://user-images.githubusercontent.com/51121757/70650068-48a0af00-1c46-11ea-94ad-31fdd0df41f9.PNG)
+
+![19](https://user-images.githubusercontent.com/51121757/70650073-4c343600-1c46-11ea-8c61-fca3d49d64ab.PNG)
+
+
+## Step 2: Connect to the database through MySQL workbench
 
 
 
