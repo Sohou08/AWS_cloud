@@ -102,6 +102,8 @@ Download pew: pip3 install pew
  Check the content of the file: cat myEnv.txt
  ``` 
  
+ ![10](https://user-images.githubusercontent.com/51121757/70669372-202cab00-1c6e-11ea-8610-0fb25ada255f.PNG)
+
  
  
  
