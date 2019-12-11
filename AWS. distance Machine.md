@@ -75,6 +75,24 @@ Download pew: pip3 install pew
  
 ```{r}
  Create a new environnment and launch it:  pew new <File name>
- ```
+ Find your environnment: pew ls
+ get there: pew workon <File name>
+ Note: Everything making there, will specify in this environnment
+```
+ ![9](https://user-images.githubusercontent.com/51121757/70666937-a0034700-1c67-11ea-8da6-9d3db5108c76.PNG)
+ 
+
+ 
+ ## Step 3: Connect the virtual environnment to jupyter
+ 
+ 
+ ```{r}
+ In your environnment , install kernel: pip3 install ipykernel 
+ Configure: python3 -m ipykernel install --user --name= thenameyouwant.injupyter
+ ``` 
+ 
+ 
+ 
+ 
  
  
