@@ -37,7 +37,7 @@ After to create data base
 ```{r}
 MySQL workbench/Setup new connection/
 Hostname: it is the endpoint of the database
-Username: admin (name put on the 
+Username: admin (name put on the Setting Tab) 
 Passeword: *****
 Test connection then ok
 
