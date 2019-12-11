@@ -35,7 +35,7 @@ http://localhost:8888/?token=381b1b4a8fc4f6f5d6e1444971045124ab8582bf638689f6
 Note: For holding jupyter run always even the terminale is close, use this commande --> nohup jupyter notebook -–ip=0.0.0.0 & 
 The command following --> (cat nohup.out ) will display the content of the file within your command line.
 
- ```
+```
  
 ![1](https://user-images.githubusercontent.com/51121757/70657585-01211f80-1c54-11ea-9ea7-959ff07f8bcc.PNG)
 
@@ -52,22 +52,29 @@ install anoconda: curl -O https://repo.anaconda.com/archive/Anaconda3-2019.10-Li
 ![2](https://user-images.githubusercontent.com/51121757/70663939-4ac43700-1c61-11ea-9d74-0d74a2cec485.PNG)
 
 
-
 ```{r}
 To execute  Anaconda: bash <File Name>
- ``` 
- 
+``` 
+![anaconda](https://user-images.githubusercontent.com/51121757/70666397-70a00a80-1c66-11ea-8589-a88ffd8663f0.PNG)
+
 
  ## Step 2: Create a virtual machine: Pew
  
- ```{r}
+```{r}
 Download pew: pip3 install pew
- ``` 
+``` 
+ 
  ![7](https://user-images.githubusercontent.com/51121757/70666095-dcce3e80-1c65-11ea-8b00-1c86e5718a0d.PNG)
  
-  ```{r}
+```{r}
  Check pew: pew
  ```
+ 
 ![8](https://user-images.githubusercontent.com/51121757/70666152-fb343a00-1c65-11ea-8810-41b128e5a6ca.PNG)
 
-
+ 
+```{r}
+ Create a new environnment and launch it:  pew new <File name>
+ ```
+ 
+ 
