@@ -16,5 +16,10 @@ For each component (red box),
 ![14](https://user-images.githubusercontent.com/51121757/70649313-cfed2300-1c44-11ea-8816-19afec1676af.PNG)
 ![15](https://user-images.githubusercontent.com/51121757/70649501-3114f680-1c45-11ea-8251-6fd40a07de94.PNG)
 ![16](https://user-images.githubusercontent.com/51121757/70649678-8e10ac80-1c45-11ea-815f-7bdfa5775f93.PNG)
+![17](https://user-images.githubusercontent.com/51121757/70649781-bb5d5a80-1c45-11ea-98bd-90b78ac8977a.PNG)
+
+Note: Possibilty to get some warning after all these step below.
+
+
 
 
