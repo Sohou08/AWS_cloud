@@ -14,4 +14,5 @@ For each component (red box),
 ![10](https://user-images.githubusercontent.com/51121757/70648100-45a3bf80-1c42-11ea-8e5a-6984fb620f5a.PNG)
 ![11](https://user-images.githubusercontent.com/51121757/70648579-438e3080-1c43-11ea-9887-18c7b335ef83.PNG)
 ![14](https://user-images.githubusercontent.com/51121757/70649313-cfed2300-1c44-11ea-8816-19afec1676af.PNG)
+![15](https://user-images.githubusercontent.com/51121757/70649501-3114f680-1c45-11ea-8251-6fd40a07de94.PNG)
 
