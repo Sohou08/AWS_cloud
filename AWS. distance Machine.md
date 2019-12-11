@@ -61,8 +61,8 @@ To execute  Anaconda: bash <File Name>
  
  ```{r}
 Download pew: pip3 install pew
-
  ``` 
+ ![7](https://user-images.githubusercontent.com/51121757/70666095-dcce3e80-1c65-11ea-8b00-1c86e5718a0d.PNG)
  
   ```{r}
  Check pew: pew
