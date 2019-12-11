@@ -40,7 +40,7 @@ The command following --> (cat nohup.out ) will display the content of the file 
 ![1](https://user-images.githubusercontent.com/51121757/70657585-01211f80-1c54-11ea-9ea7-959ff07f8bcc.PNG)
 
 
- ### Create a virtual machine: Anaconda
+ ## Step 2: Create a virtual machine: Anaconda
 Anaconda is an open-source package manager, environment manager, and distribution of the Python and R programming languages. 
 Retriieve the last version of Anoconda linux --> https://www.anaconda.com/distribution/
 
@@ -49,4 +49,23 @@ In your jupyter terminal, Create one folder called tmp and this one will contain
 Create folder: mkdir <file name>
 install anoconda: curl -O https://repo.anaconda.com/archive/Anaconda3-2019.10-Linux-x86_64.sh
  ```
+![2](https://user-images.githubusercontent.com/51121757/70663939-4ac43700-1c61-11ea-9d74-0d74a2cec485.PNG)
+
+
+
+```{r}
+To execute  Anaconda: bash <File Name>
+ ``` 
+
+ ## Step 2: Create a virtual machine: Pew
+ 
+ ```{r}
+Download pew: pip3 install pew
+
+ ``` 
+ 
+  ```{r}
+ Check pew: pew
+ ```
+
 
