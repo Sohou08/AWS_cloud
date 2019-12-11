@@ -21,6 +21,7 @@ For each component (red box),
 
 ```{r}
 Note: Possibilty to get some warning after all these step below.
+
 Just follow the statement given by the warning. 
 For enabling the DNS hostname, Go to Action/Edit DNS hostname and click to enable.
 After to create data base 
@@ -34,13 +35,21 @@ After to create data base
 ## Step 2: Connect to the database through MySQL workbench
 
 ```{r}
-In an Hostname of your MySQL work bench, put the Endpoint of your database
+MySQL workbench/Setup new connection/
+Hostname: it is the endpoint of the database
+Username: admin (name put on the 
+Passeword: *****
+Test connection then ok
+
 ```
 
 
-![24](https://user-images.githubusercontent.com/51121757/70651240-5bb47e80-1c48-11ea-849c-dfb58015c769.PNG)
+
 
 ![20](https://user-images.githubusercontent.com/51121757/70650726-83efad80-1c47-11ea-8852-0c63d4b96f3c.PNG)
+
+![24](https://user-images.githubusercontent.com/51121757/70651240-5bb47e80-1c48-11ea-849c-dfb58015c769.PNG)
+
 ![21](https://user-images.githubusercontent.com/51121757/70650728-85b97100-1c47-11ea-8ef0-647efc905f7f.PNG)
 ![22](https://user-images.githubusercontent.com/51121757/70650732-87833480-1c47-11ea-94ff-876d66a3493d.PNG)
 
