@@ -15,11 +15,10 @@
 
 ```{r}
 * Private Subnet will be attached to the NAT instance. 
-For that, Create first one route table, go to "edit route table association", choice the previous route table. Then this one will be replace by the NAT instance that you create after. Thus, you obtain something look like in the red box.
-
+For that, Create first one route table, go to "edit route table association", choice the previous route table. 
+Then this one will be replace by the NAT instance that you create after. 
+Thus, you obtain in the route table something look like in the red box.
 ```
-
-
 
 ![9](https://user-images.githubusercontent.com/51121757/70646282-797ce600-1c3e-11ea-8654-a15b32e1c1bf.PNG)
 
@@ -29,9 +28,9 @@ For that, Create first one route table, go to "edit route table association", ch
 
 ```{r}
 
-* Jump box (Possible to add Elastic IP for more flexibility of your instance)
-Note: During set up of the publics instances, IP address will get by choice enable
-on <Auto-assign Public IP>
+* Jump box (Possibility to add Elastic IP for more flexibility of your instance)
+Note: During set up of this one, IP address will get by choice enable
+in <Auto-assign Public IP> (Red box in the picture)
 ```
 
 ![8](https://user-images.githubusercontent.com/51121757/69897369-12f4ef80-1343-11ea-9908-d2fd3698d8ff.PNG)
@@ -45,7 +44,8 @@ on <Auto-assign Public IP>
 * NAT instance: Possibility to add Elastic IP for more flexibility of your instance. 
 
 In AWS management console, Choice EC2 then Launch instance.
-In the left navigation pane, choice community and search <amzn-ami-vpc-nat>, take in preference the first. Normally you obtain something in below :
+In the left navigation pane, choice community and search <amzn-ami-vpc-nat>, take in preference the first.
+Normally, you obtain something following:
 ```
 
 ![4](https://user-images.githubusercontent.com/51121757/69834399-0765d380-1232-11ea-8479-3d1b176f3c73.PNG)
