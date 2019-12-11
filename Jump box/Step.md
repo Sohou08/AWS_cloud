@@ -16,7 +16,10 @@
 ```{r}
 * Private Subnet will be attached to the NAT instance. 
 For that, Create first one route table, go to "edit route table association", choice the previous route table. Then this one will be replace by the NAT instance that you create after. Thus, you obtain something look like in the red box.
+
 ```
+
+
 
 ![9](https://user-images.githubusercontent.com/51121757/70646282-797ce600-1c3e-11ea-8654-a15b32e1c1bf.PNG)
 
