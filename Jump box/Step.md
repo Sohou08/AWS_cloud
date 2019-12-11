@@ -1,7 +1,7 @@
 
 # Purpose: Set up an Jump box (public instance) in AWS allowing to access in your instance private #
 
-###### STEP 1 : Environment requirement ( Create VPC, subnet, IGW, Elastic IP, Instances) ####
+### STEP 1 : Environment requirement ( Create VPC, subnet, IGW, Elastic IP, Instances) ###
 
 ```{r}
 
@@ -22,7 +22,7 @@ For that, Create first one route table, go to "edit route table association", ch
 
 
 
-###### STEP 2. Set up 3 instances (private, Jump box and NAT instance) #####
+### STEP 2. Set up 3 instances (private, Jump box and NAT instance) ###
 
 ```{r}
 
@@ -61,7 +61,7 @@ In this instance, you need tick these statements following :
 ![6](https://user-images.githubusercontent.com/51121757/69834408-1056a500-1232-11ea-8ccb-74cce9d3cbee.PNG)
 
 
-###### STEP 3. Checking If it’s work or not by pinging google.com in Ubuntu console ####
+### STEP 3. Checking If it’s work or not by pinging google.com in Ubuntu console ###
 ```{r}
 * First access in your local directory of Key < JB_key.pem >
 
