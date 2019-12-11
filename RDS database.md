@@ -33,6 +33,12 @@ After to create data base
 
 ## Step 2: Connect to the database through MySQL workbench
 
+```{r}
+In an Hostname of your MySQL work bench, put the Endpoint of your database
+```
+
+
+
 ![20](https://user-images.githubusercontent.com/51121757/70650726-83efad80-1c47-11ea-8852-0c63d4b96f3c.PNG)
 ![21](https://user-images.githubusercontent.com/51121757/70650728-85b97100-1c47-11ea-8ef0-647efc905f7f.PNG)
 ![22](https://user-images.githubusercontent.com/51121757/70650732-87833480-1c47-11ea-94ff-876d66a3493d.PNG)
