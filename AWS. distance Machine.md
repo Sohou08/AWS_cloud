@@ -29,5 +29,11 @@ http://localhost:8888/?token=381b1b4a8fc4f6f5d6e1444971045124ab8582bf638689f6
 --> Add the port 8888 in your instance 
 --> Replace Localhost to the IP address of an instance
 --> Making access to jupyter notebook to everywhere: jupyter notebook –ip=0.0.0.0
---> To access in your instance: replace the token by this one given 
+--> To access in your instance: replace the token by this one given through jupyter notebook -ip=0.0.0.0
+
+Note: For holding jupyter run always even the terminale is close, use this commande --> nohup jupyter notebook –ip=0.0.0.0 & 
+The commande following --> (cat nohup.out ) will display the content of the file within your command line.
+
  ```
+ 
+![1](https://user-images.githubusercontent.com/51121757/70657585-01211f80-1c54-11ea-9ea7-959ff07f8bcc.PNG)
