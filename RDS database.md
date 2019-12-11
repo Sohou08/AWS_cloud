@@ -38,6 +38,7 @@ In an Hostname of your MySQL work bench, put the Endpoint of your database
 ```
 
 
+![24](https://user-images.githubusercontent.com/51121757/70651240-5bb47e80-1c48-11ea-849c-dfb58015c769.PNG)
 
 ![20](https://user-images.githubusercontent.com/51121757/70650726-83efad80-1c47-11ea-8852-0c63d4b96f3c.PNG)
 ![21](https://user-images.githubusercontent.com/51121757/70650728-85b97100-1c47-11ea-8ef0-647efc905f7f.PNG)
