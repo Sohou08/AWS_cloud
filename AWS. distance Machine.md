@@ -83,7 +83,7 @@ Download pew: pip3 install pew
  
 
  
- ## Step 3: Connect the virtual environnment to jupyter
+ ## Step 3: Connect the virtual environnment (pew) to jupyter
  
  
  ```{r}
@@ -91,7 +91,16 @@ Download pew: pip3 install pew
  Configure: python3 -m ipykernel install --user --name= thenameyouwant.injupyter
  ``` 
  
+ ![10](https://user-images.githubusercontent.com/51121757/70668631-0c804500-1c6c-11ea-8403-b84783d3e13c.PNG)
+
  
+  ## Step 4: Check the differents packages presents a virtual environnment
+ 
+  ```{r} 
+ Check package: pip3 freeze 
+ Create a text file for all package: pip3 freeze > myEnv.txt
+ Check the content of the file: cat myEnv.txt
+ ``` 
  
  
  
