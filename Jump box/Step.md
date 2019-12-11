@@ -1,7 +1,8 @@
 
 # Purpose: Set up an Jump box (public instance) in AWS allowing to access in your instance private #
 
-#### STEP 1 : Environment requirement ( Create VPC, subnet, IGW, Elastic IP, Instances) ####
+###### STEP 1 : Environment requirement ( Create VPC, subnet, IGW, Elastic IP, Instances) ####
+
 ```{r}
 
 * Create VPC ,one public subnet and IGW 
@@ -14,15 +15,14 @@
 
 ```{r}
 * Private Subnet will be attached to the NAT instance. 
-
 For that, Create first one route table, go to "edit route table association", choice the previous route table. Then this one will be replace by the NAT instance that you create after. Thus, you obtain something look like in the red box.
 ```
 
+![9](https://user-images.githubusercontent.com/51121757/70646282-797ce600-1c3e-11ea-8654-a15b32e1c1bf.PNG)
 
-![2](https://user-images.githubusercontent.com/51121757/69834390-f9b04e00-1231-11ea-9d10-6a2dfcaf981b.PNG)
 
 
-#### STEP 2. Set up 3 instances (private, Jump box and NAT instance) ####
+###### STEP 2. Set up 3 instances (private, Jump box and NAT instance) #####
 
 ```{r}
 
@@ -61,7 +61,7 @@ In this instance, you need tick these statements following :
 ![6](https://user-images.githubusercontent.com/51121757/69834408-1056a500-1232-11ea-8ccb-74cce9d3cbee.PNG)
 
 
-#### STEP 3. Checking If it’s work or not by pinging google.com in Ubuntu console ####
+###### STEP 3. Checking If it’s work or not by pinging google.com in Ubuntu console ####
 ```{r}
 * First access in your local directory of Key < JB_key.pem >
 
@@ -73,7 +73,7 @@ cd /mnt/c/Users/
 cp -i <JB_key.pem> ~
 cd ~
 
-* Use Ssh allow you to access in the instance
+* Use Ssh allowing to access in the instance
 
 chmod 400 < JB_key.pem >
 
