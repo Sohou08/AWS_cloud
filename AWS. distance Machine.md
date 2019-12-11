@@ -56,6 +56,7 @@ install anoconda: curl -O https://repo.anaconda.com/archive/Anaconda3-2019.10-Li
 ```{r}
 To execute  Anaconda: bash <File Name>
  ``` 
+ 
 
  ## Step 2: Create a virtual machine: Pew
  
@@ -67,5 +68,6 @@ Download pew: pip3 install pew
   ```{r}
  Check pew: pew
  ```
+![8](https://user-images.githubusercontent.com/51121757/70666152-fb343a00-1c65-11ea-8810-41b128e5a6ca.PNG)
 
 
