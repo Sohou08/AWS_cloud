@@ -41,7 +41,7 @@ The command following --> (cat nohup.out ) will display the content of the file 
 
 
  ## Step 2: Create a virtual machine: Anaconda
-Anaconda is an open-source package manager, environment manager, and distribution of the Python and R programming languages. 
+Anaconda is an open-source package manager, environment manager, and distribution of the Python and R programming languages. It's very powerful virtual machine if you need a multiple version of python.
 Retriieve the last version of Anoconda linux --> https://www.anaconda.com/distribution/
 
 ```{r}
@@ -53,10 +53,14 @@ install anoconda: curl -O https://repo.anaconda.com/archive/Anaconda3-2019.10-Li
 
 
 ```{r}
-To execute  Anaconda: bash <File Name>
+To execute  Anaconda: bash <File Name> -u
 ``` 
 ![anaconda](https://user-images.githubusercontent.com/51121757/70666397-70a00a80-1c66-11ea-8589-a88ffd8663f0.PNG)
 
+```{r}
+Create environnment: conda create -n myenf2.7 python=2.7
+Access in an environnment: conda activate myenf2.7
+``` 
 
  ## Step 2: Create a virtual machine: Pew
  
