@@ -1,5 +1,6 @@
  ## SET UP, PYTHON, JUPYTER, LIBRARY ENVIRONNMENT IN YOUR DISTANCE MACHINE AND HOW TO USE IT ##
- Note: JUPYTER allows to have a virtual environnment 
+ 
+ JUPYTER allows to have a virtual environnment 
  
  ### Step1 
  
@@ -28,12 +29,24 @@ http://localhost:8888/?token=381b1b4a8fc4f6f5d6e1444971045124ab8582bf638689f6
 
 --> Add the port 8888 in your instance 
 --> Replace Localhost to the IP address of an instance
---> Making access to jupyter notebook to everywhere: jupyter notebook –ip=0.0.0.0
---> To access in your instance: replace the token by this one given through jupyter notebook -ip=0.0.0.0
+--> Making access to jupyter notebook to everywhere: jupyter notebook -–ip=0.0.0.0
+--> To access in your instance: replace the token by this one given through jupyter notebook --ip=0.0.0.0
 
-Note: For holding jupyter run always even the terminale is close, use this commande --> nohup jupyter notebook –ip=0.0.0.0 & 
-The commande following --> (cat nohup.out ) will display the content of the file within your command line.
+Note: For holding jupyter run always even the terminale is close, use this commande --> nohup jupyter notebook -–ip=0.0.0.0 & 
+The command following --> (cat nohup.out ) will display the content of the file within your command line.
 
  ```
  
 ![1](https://user-images.githubusercontent.com/51121757/70657585-01211f80-1c54-11ea-9ea7-959ff07f8bcc.PNG)
+
+
+ ### Create a virtual machine: Anaconda
+Anaconda is an open-source package manager, environment manager, and distribution of the Python and R programming languages. 
+Retriieve the last version of Anoconda linux --> https://www.anaconda.com/distribution/
+
+```{r}
+In your jupyter terminal, Create one folder called tmp and this one will contain Anoconda
+Create folder: mkdir <file name>
+install anoconda: curl -O https://repo.anaconda.com/archive/Anaconda3-2019.10-Linux-x86_64.sh
+ ```
+
