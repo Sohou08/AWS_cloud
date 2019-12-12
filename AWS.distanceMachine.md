@@ -2,7 +2,7 @@
  
  JUPYTER allows to have a virtual environnment 
  
- ### Step1 
+ ### Step1: Environnment requirement (instance, package) 
  
  ```{r}
  Launch Instance: Ubuntu instance / Connect to an instance.
