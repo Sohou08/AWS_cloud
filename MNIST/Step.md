@@ -32,7 +32,7 @@ launch ubuntu 18.4
 install apache2 --> sudo apt install apache2
 Check --> In the browser, paste your public IP address ##don't forget to add the port
 ```
-
+![Capture](https://user-images.githubusercontent.com/51121757/70862733-eee70000-1f37-11ea-8cca-523a76b47413.PNG)
 
 ```{r}
 Clone your Github:
@@ -41,9 +41,16 @@ Clone your Github:
 --> sudo mv AWS_Tutorials/MNIST/index.html /var/www/html/# make yes
 Get following output after refreshing the web application
 ```
+![2](https://user-images.githubusercontent.com/51121757/70862736-f1e1f080-1f37-11ea-8f21-00d88b6a9996.PNG)
+
 
 ```{r}
+
 --> sudo mv AWS_Tutorials/MNIST/static/ /var/www/html/
+End results:
 #if it's work you have the ability to draw
 ```
+![3](https://user-images.githubusercontent.com/51121757/70862737-f3abb400-1f37-11ea-9908-ecea1965da35.PNG)
+![4](https://user-images.githubusercontent.com/51121757/70862739-f5757780-1f37-11ea-818f-1303978de389.PNG)
 
+## STEP 3 : SET UP FLASH  ##
