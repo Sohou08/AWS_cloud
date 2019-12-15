@@ -65,8 +65,6 @@ execute anaconda
 --> conda install opencv (doesn't work)
 clone github
 
-
-
 check python: python3 and pip3
 Install pip3: sudo apt install python3-pip ## Pip should have the same version with python
 Clone github
@@ -82,10 +80,5 @@ Make work this commande: ~/AWS_Tutorials/MNIST$ python3 ./keras_flask.py
 to resolve it --> source ~/.bashr then retape conda ##
 --> conda install keras
 --> conda install opencv
-
-
-
-
-
 
 ```
