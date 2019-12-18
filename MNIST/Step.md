@@ -22,7 +22,7 @@ Clone Your Github
 --> git clone <Github link>
 --> Choose your kernel (virtual environnment created previously)
 --> In your virtual environnment:  Run the model and save it
-The only thing that you need in this step is the model called <cnn-mnist>
+The result is to get the model called <cnn-mnist>
 ```
 
 ## STEP 2 : SET UP WEB SERVER APPLICATION ##
@@ -30,8 +30,9 @@ The only thing that you need in this step is the model called <cnn-mnist>
 ```{r}
 launch ubuntu 18.4 (same VPC and public subnet, size=15, new SG and same KEY)
 install apache2 --> sudo apt install apache2
-Check --> In the browser, paste your public IP address ##don't forget to add the port
+Check if it works --> In the browser, paste your public IP address ##don't forget to add the port
 ```
+Output
 ![Capture](https://user-images.githubusercontent.com/51121757/70862733-eee70000-1f37-11ea-8cca-523a76b47413.PNG)
 
 ```{r}
@@ -39,24 +40,23 @@ Clone your Github:
 --> sudo apt-get install git
 --> git clone <Link name>
 --> sudo mv AWS_Tutorials/MNIST/index.html /var/www/html/# make yes
-Get following output after refreshing the web application
+Get output following after refreshing the web application
 ```
+Output
 ![2](https://user-images.githubusercontent.com/51121757/70862736-f1e1f080-1f37-11ea-8f21-00d88b6a9996.PNG)
 
-
 ```{r}
-
 --> sudo mv AWS_Tutorials/MNIST/static/ /var/www/html/
-End results:
-#if it's work you have the ability to draw
+End results: ability to draw
 ```
+Output
 ![3](https://user-images.githubusercontent.com/51121757/70862737-f3abb400-1f37-11ea-9908-ecea1965da35.PNG)
 ![4](https://user-images.githubusercontent.com/51121757/70862739-f5757780-1f37-11ea-818f-1303978de389.PNG)
 
 ## STEP 3 : SET UP FLASH  ## not finish
 
 ```{r}
-To go faster, use public subnet to avoid to install Jumbox.
+In order to make faster, use public subnet to avoid to install Jumbox.
 Launch instance (same VPC and public subnet, size=15, new SG and same KEY)
 sudo apt-get update -y
 install anaconda
