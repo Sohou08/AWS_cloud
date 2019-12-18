@@ -6,7 +6,6 @@
 In the left navigation pane, research or click (if used before) in RDS. 
 Follow these step following: 
 Database/ Create database/ Standard creation/ MySQL/ Freetier
-
 For each component (red box), 
 ```
 ![12](https://user-images.githubusercontent.com/51121757/70648851-df1fa100-1c43-11ea-8c4a-77bf41773551.PNG)
