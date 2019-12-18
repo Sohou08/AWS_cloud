@@ -44,20 +44,18 @@ Output (NAT Instance)
 ![4](https://user-images.githubusercontent.com/51121757/69834399-0765d380-1232-11ea-8479-3d1b176f3c73.PNG)
 
 ```{r}
-In this instance, you need tick these statements following : 
+Note: tick these statements following : 
 ```
 Output
 ![5](https://user-images.githubusercontent.com/51121757/69834402-0c2a8780-1232-11ea-96db-7c87a1d60b74.PNG)
 
-
-```{r}
-* Private Instance
-```
+Private Instance 
 Output
 ![6](https://user-images.githubusercontent.com/51121757/69834408-1056a500-1232-11ea-8ccb-74cce9d3cbee.PNG)
 
 
 ### STEP 3. Checking If it’s work or not by pinging google.com in Ubuntu console ###
+
 ```{r}
 * First access in your local directory of Key < JB_key.pem >
 
@@ -90,5 +88,5 @@ ping google.com
 
 ```
 
-Output
+Output (End)
 ![7](https://user-images.githubusercontent.com/51121757/69834414-15b3ef80-1232-11ea-86e4-6989c31d9903.PNG)
