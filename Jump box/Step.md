@@ -16,7 +16,7 @@ For that, Create first one route table, go to "edit route table association", ch
 This one will be replace by the NAT instance --> Obtain (in the route table) "eni-0c56e.....".
 
 ```
-
+Output
 ![9](https://user-images.githubusercontent.com/51121757/70646282-797ce600-1c3e-11ea-8654-a15b32e1c1bf.PNG)
 
 
@@ -28,10 +28,10 @@ This one will be replace by the NAT instance --> Obtain (in the route table) "en
 Note: During set up of this one, IP address will get by choice enable
 in <Auto-assign Public IP> (Red box in the picture)
 ```
-
+Output
 ![8](https://user-images.githubusercontent.com/51121757/69897369-12f4ef80-1343-11ea-9908-d2fd3698d8ff.PNG)
 
-
+Output
 ![3](https://user-images.githubusercontent.com/51121757/69834395-00d75c00-1232-11ea-98eb-0552028c4570.PNG)
 
 
@@ -43,20 +43,20 @@ In AWS management console, Choice EC2 then Launch instance.
 In the left navigation pane, choice community and search <amzn-ami-vpc-nat>, take in preference the first.
 Normally, you obtain something following:
 ```
-
+Output
 ![4](https://user-images.githubusercontent.com/51121757/69834399-0765d380-1232-11ea-8479-3d1b176f3c73.PNG)
 
 ```{r}
 In this instance, you need tick these statements following : 
 ```
-
+Output
 ![5](https://user-images.githubusercontent.com/51121757/69834402-0c2a8780-1232-11ea-96db-7c87a1d60b74.PNG)
 
 
 ```{r}
 * Private Instance
 ```
-
+Output
 ![6](https://user-images.githubusercontent.com/51121757/69834408-1056a500-1232-11ea-8ccb-74cce9d3cbee.PNG)
 
 
@@ -93,5 +93,5 @@ ping google.com
 
 ```
 
-
+Output
 ![7](https://user-images.githubusercontent.com/51121757/69834414-15b3ef80-1232-11ea-86e4-6989c31d9903.PNG)
