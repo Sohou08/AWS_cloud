@@ -1,19 +1,20 @@
 
 # Purpose: Set up an Jump box (public instance) in AWS allowing to access in your instance private #
 
-### STEP 1 : Environment requirement ( Create VPC, subnet, IGW, Elastic IP, Instances) ###
+### STEP 1 : Environment requirement (Create VPC, subnet, IGW, Elastic IP, Instances) ###
 
 ```{r}
 * Create VPC ,one public subnet and IGW 
 * Public subnet will attached to internet gateway (IGW) 
 ```
-
+Output
 ![1](https://user-images.githubusercontent.com/51121757/69834360-c077de00-1231-11ea-9d16-1616a0f32df2.PNG)
 
 ```{r}
 *Private Subnet will be attached to the NAT instance. 
 For that, Create first one route table, go to "edit route table association", choice the previous route table. 
-This one will be replace by the NAT instance --> Obtain (in the route table) "" something look like in the red box.
+This one will be replace by the NAT instance --> Obtain (in the route table) "eni-0c56e.....".
+
 ```
 
 ![9](https://user-images.githubusercontent.com/51121757/70646282-797ce600-1c3e-11ea-8654-a15b32e1c1bf.PNG)
