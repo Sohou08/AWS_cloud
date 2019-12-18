@@ -22,25 +22,25 @@ Output (Private subnet)
 ### STEP 2. Set up 3 instances (private, Jumpbox and NAT instance) ###
 The Jumpbox and NAT instance are in public subnet
 
+Jumpbox (installed in the public subnet)
 ```{r}
---> Jump box :possibility to add Elastic IP for more flexibility of your instance.
+Jump box :possibility to add Elastic IP for more flexibility of your instance.
 Otherwise, choice enable in <Auto-assign Public IP> during the set up (Red box in the picture)
 ```
+
 Output (Auto-assign public IP)
 ![8](https://user-images.githubusercontent.com/51121757/69897369-12f4ef80-1343-11ea-9908-d2fd3698d8ff.PNG)
 
 Output (Private subnet)
 ![3](https://user-images.githubusercontent.com/51121757/69834395-00d75c00-1232-11ea-98eb-0552028c4570.PNG)
 
-
+NAT instance (installed in the public subnet)
 ```{r}
-* NAT instance: Possibility to add Elastic IP for more flexibility of your instance. 
-
+NAT instance: Possibility to add Elastic IP for more flexibility of your instance. 
 In AWS management console, Choice EC2 then Launch instance.
 In the left navigation pane, choice community and search <amzn-ami-vpc-nat>, take in preference the first.
-Normally, you obtain something following:
 ```
-Output
+Output (NAT Instance)
 ![4](https://user-images.githubusercontent.com/51121757/69834399-0765d380-1232-11ea-8479-3d1b176f3c73.PNG)
 
 ```{r}
