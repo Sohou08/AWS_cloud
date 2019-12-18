@@ -1,20 +1,20 @@
 
 
-## STEP 1 : CREATE JUPYTER, TRAINING OUR MODEL, SAVE MODEL ##
+## STEP 1 : SET UP JUPYTER, TRAINING OUR MODEL, SAVE MODEL ##
 
 ```{r}
 Launch instance
 Update --> sudo yum update -y
-Install jupyter toward Anaconda --> wget https://repo.anaconda.com/archive/Anaconda3-2019.10-Linux-x86_64.sh
+Install jupyter through Anaconda --> wget https://repo.anaconda.com/archive/Anaconda3-2019.10-Linux-x86_64.sh
 display anaconda --> wget <File name> -u
 launch conda --> conda init ## Reload the terminale if it's not work
 Install Jupyter Notebook --> jupyter notebook --ip=0.0.0.0 --no-browser
-Connect to it --> Copy the 
+Connect to it  
 
 Create a new virtual environnment
 --> conda create -n nameofyourenv python=3.6
 --> conda install nb_conda
---> conda conda activate nameofyourenv 
+--> conda activate nameofyourenv 
 --> conda install ipykernel
 --> ipython kernel install --user --name=nameyouwanttodisplay
 Clone Your Github
@@ -22,10 +22,10 @@ Clone Your Github
 --> git clone <Github link>
 --> Choose your kernel (virtual environnment created previously)
 --> In your virtual environnment:  Run the model and save it
-The only thing that you need here is the model that you save called <cnn-mnist>
+The only thing that you need in this step is the model called <cnn-mnist>
 ```
 
-## STEP 2 : SET UP WEB SERVER APPLICATION##
+## STEP 2 : SET UP WEB SERVER APPLICATION ##
 
 ```{r}
 launch ubuntu 18.4 (same VPC and public subnet, size=15, new SG and same KEY)
@@ -80,5 +80,11 @@ Make work this commande: ~/AWS_Tutorials/MNIST$ python3 ./keras_flask.py
 to resolve it --> source ~/.bashr then retape conda ##
 --> conda install keras
 --> conda install opencv
+--> sudo apt-get install python3-opencv
 
+--> Ip address:port(5000)/predict
+--> cd /var/www/html/
+--> sudo vi <File name>
+--> Go to url, enter your IP address of back end
+--> :
 ```
