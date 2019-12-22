@@ -9,7 +9,7 @@ Create VPC, subnet public, internet gateway (IGW)
 ```
 Output (Public subnet)
 
-       ![1](https://user-images.githubusercontent.com/51121757/69834360-c077de00-1231-11ea-9d16-1616a0f32df2.PNG)
+   ![1](https://user-images.githubusercontent.com/51121757/69834360-c077de00-1231-11ea-9d16-1616a0f32df2.PNG)
 
 Private subnet
 ```{r}
@@ -19,7 +19,7 @@ This one will be replace by the NAT instance --> Obtain (in the route table) "en
 ```
 Output (Private subnet)
 
-       ![9](https://user-images.githubusercontent.com/51121757/70646282-797ce600-1c3e-11ea-8654-a15b32e1c1bf.PNG)
+   ![9](https://user-images.githubusercontent.com/51121757/70646282-797ce600-1c3e-11ea-8654-a15b32e1c1bf.PNG)
 
 ### STEP 2. Set up 3 instances (private, Jumpbox and NAT instance) ###
 The Jumpbox and NAT instance are in public subnet
@@ -32,11 +32,11 @@ Otherwise, choice enable in <Auto-assign Public IP> during the set up (Red box i
 
 Output (Auto-assign public IP)
 
-      ![8](https://user-images.githubusercontent.com/51121757/69897369-12f4ef80-1343-11ea-9908-d2fd3698d8ff.PNG)
+   ![8](https://user-images.githubusercontent.com/51121757/69897369-12f4ef80-1343-11ea-9908-d2fd3698d8ff.PNG)
 
 Output (Private subnet)
 
-      ![3](https://user-images.githubusercontent.com/51121757/69834395-00d75c00-1232-11ea-98eb-0552028c4570.PNG)
+   ![3](https://user-images.githubusercontent.com/51121757/69834395-00d75c00-1232-11ea-98eb-0552028c4570.PNG)
 
 NAT instance (installed in the public subnet)
 ```{r}
@@ -46,17 +46,19 @@ In the left navigation pane, choice community and search <amzn-ami-vpc-nat>, tak
 ```
 Output (NAT Instance)
 
-      ![4](https://user-images.githubusercontent.com/51121757/69834399-0765d380-1232-11ea-8479-3d1b176f3c73.PNG)
+   ![4](https://user-images.githubusercontent.com/51121757/69834399-0765d380-1232-11ea-8479-3d1b176f3c73.PNG)
 
 ```{r}
 Note: tick these statements following (in the private instance) : 
 ```
 Output
-![5](https://user-images.githubusercontent.com/51121757/69834402-0c2a8780-1232-11ea-96db-7c87a1d60b74.PNG)
+
+   ![5](https://user-images.githubusercontent.com/51121757/69834402-0c2a8780-1232-11ea-96db-7c87a1d60b74.PNG)
 
 Private Instance 
 Output
-![6](https://user-images.githubusercontent.com/51121757/69834408-1056a500-1232-11ea-8ccb-74cce9d3cbee.PNG)
+
+   ![6](https://user-images.githubusercontent.com/51121757/69834408-1056a500-1232-11ea-8ccb-74cce9d3cbee.PNG)
 
 
 ### STEP 3. Checking If it’s work or not by pinging google.com in Ubuntu console ###
@@ -94,4 +96,5 @@ ping google.com
 ```
 
 Output (End)
-![7](https://user-images.githubusercontent.com/51121757/69834414-15b3ef80-1232-11ea-86e4-6989c31d9903.PNG)
+
+   ![7](https://user-images.githubusercontent.com/51121757/69834414-15b3ef80-1232-11ea-86e4-6989c31d9903.PNG)
