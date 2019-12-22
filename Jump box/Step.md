@@ -44,7 +44,7 @@ Output (NAT Instance)
 ![4](https://user-images.githubusercontent.com/51121757/69834399-0765d380-1232-11ea-8479-3d1b176f3c73.PNG)
 
 ```{r}
-Note: tick these statements following : 
+Note: tick these statements following (in the private instance) : 
 ```
 Output
 ![5](https://user-images.githubusercontent.com/51121757/69834402-0c2a8780-1232-11ea-96db-7c87a1d60b74.PNG)
