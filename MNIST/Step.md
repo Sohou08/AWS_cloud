@@ -57,35 +57,20 @@ Output
 ## STEP 3 : BACK END  ## not finish
 
 ```{r}
+
 In order to make faster, use public subnet to avoid to install Jumbox.
 Launch instance (same VPC and public subnet, size=15, new SG and same KEY)
 sudo apt-get update -y
-install anaconda
-execute anaconda
---> conda install keras
---> conda install opencv (doesn't work)
-clone github
 
-check python: python3 and pip3
-Install pip3: sudo apt install python3-pip ## Pip should have the same version with python
-Clone github
+install anaconda ###### Error getted during conda excution --> conda: command not found
+to resolve it --> source ~/.bashr then retape conda ######
 
-Make work this commande: ~/AWS_Tutorials/MNIST$ python3 ./keras_flask.py
---> pip3 install -r requirement.txt
---> pip3 install keras
---> pip3 install tensorflow==1.8.0
---> pip3 install flask
---> pip3 install tensorflow
---> pip3 install opencv # it's not work then try with anaconda
-## Error getting excution conda --> conda: command not found
-to resolve it --> source ~/.bashr then retape conda ##
---> conda install keras
---> conda install opencv
---> sudo apt-get install python3-opencv
+conda create -n FileName
+conda activate FileName
+conda install opencv
+pip install -r requirements.txt
 
---> Ip address:port(5000)/predict
---> cd /var/www/html/
---> sudo vi <File name>
---> Go to url, enter your IP address of back end
---> :
+copy cnn-minst / keras_flask.py
+launch keras_flask.py: python keras_flask.py
+
 ```
