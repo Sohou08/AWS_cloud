@@ -2,7 +2,7 @@
 
 ## STEP 1 : SET UP JUPYTER, TRAINING OUR MODEL, SAVE MODEL (TRAIN MACHINE) ##
 
-    -Launch instance
+   -Launch instance
 
 ```{r}
 
