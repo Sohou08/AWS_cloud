@@ -70,16 +70,9 @@ cd /mnt/c/Users/
 
 * Copy the key file in your home directory ubuntu
 
+cp /repertoire/File.name ~
 
-cp -i <JB_key.pem> ~
-cd ~
-
-* Use Ssh allowing to access in the instance
-
-chmod 400 < JB_key.pem >
-
-* Connect to the Jump  box
-
+* Connect to the Jump box
 
 ssh -i "JB_key.pem" ec2-user@<IP address Jump box>
 
