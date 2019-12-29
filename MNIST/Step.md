@@ -2,8 +2,10 @@
 
 ## STEP 1 : SET UP JUPYTER, TRAINING OUR MODEL, SAVE MODEL (TRAIN MACHINE) ##
 
+    -Launch instance
+
 ```{r}
-Launch instance
+
 Update --> sudo apt update 
 Install jupyter through Anaconda --> wget https://repo.anaconda.com/archive/Anaconda3-2019.10-Linux-x86_64.sh
 display anaconda --> bash <File name> -u
