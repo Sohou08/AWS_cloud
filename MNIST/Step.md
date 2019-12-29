@@ -20,7 +20,7 @@ Create a new virtual environnment
 Clone Your Github
 --> sudo apt-get install git
 --> git clone <Github link>
---> Choose your kernel (virtual environnment created previously)
+--> Open the <00-mnist-cnn.ipynb> File then choose your kernel (virtual environnment created previously)
 --> Run the requirement file: pip install -r AWScloud/MNIST/requirement.txt
 --> In your virtual environnment:  Run the model and save it
 The result is to get the model called <cnn-mnist>
