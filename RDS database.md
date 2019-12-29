@@ -18,7 +18,7 @@ Output of each step
 ![17](https://user-images.githubusercontent.com/51121757/70649781-bb5d5a80-1c45-11ea-98bd-90b78ac8977a.PNG)
 
 ```{r}
-Note: Possibilty to get some warning after all these steps below.
+Note: Possibilty to get some warning after all these steps above.
 Just follow the statement given by each warning. 
 For enabling the DNS hostname, Go to Action/Edit DNS hostname and click to enable.
 Create data base 
