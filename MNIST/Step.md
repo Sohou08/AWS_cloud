@@ -13,7 +13,6 @@ Connect to it
 
 Create a new virtual environnment
 --> conda create -n nameofyourenv python=3.6
---> conda install nb_conda
 --> conda activate nameofyourenv 
 --> conda install ipykernel
 --> ipython kernel install --user --name=nameyouwanttodisplay
