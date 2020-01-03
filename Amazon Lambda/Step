@@ -1,12 +1,10 @@
 
 
-Lambda are differents languages Python, java , Ruby , C# and PowerShell.
+Amazon Lambda are differents languages Python, java , Ruby , C# and PowerShell.
 
 Amazon SageMaker is a fully managed service that provides every developer and data scientist with the ability to build, 
 train, and deploy machine learning (ML) models quickly. SageMaker removes the heavy lifting from each step 
 of the machine learning process to make it easier to develop high quality models.
-
-In this work, we will look at Notebook
 
 Create a Notebook
 Create a role from the service that you manage --> Here there is Sagemaker
