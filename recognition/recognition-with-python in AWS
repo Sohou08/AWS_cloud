@@ -1,0 +1,13 @@
+How access the functionnality recognition In AWS programmatily by using python
+
+First you need to create your own IAM
+
+AWS Identity and Access Management (IAM) is a web service that helps you securely control access to AWS resources. 
+You use IAM to control who is authenticated (signed in) and authorized (has permissions) to use resources. 
+
+Object and scene detection in AWS
+
+Notice that AWS recognition return differents kind of labels and results.
+
+
+
