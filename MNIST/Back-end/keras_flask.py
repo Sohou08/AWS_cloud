@@ -1,29 +1,26 @@
 from flask import Flask, render_template, request
+from flask_cors import CORS # ADDED BY MY
 from imageio import imread
-from PIL import Image
+from PIL import Image, ImageOps # ADDED BY MY
 from keras.preprocessing import image
-from scipy.misc import imresize #added by me
-from flask_cors import CORS # added by me
+from keras.models import load_model
 import sys
 import os
 import re
 import base64
-
-from keras.models import load_model
 import tensorflow as tf
 import numpy as np
 
 app = Flask(__name__)
-CORS(app) #added by me
+CORS(app) # ADDED BY MY
 
 # Path to our saved model
 sys.path.append(os.path.abspath("./cnn-mnist"))
-#Initialize some global variables
 
-
+# Initialize some global variables
 global model, graph
 model = load_model('./cnn-mnist')
-graph = graph = tf.get_default_graph()
+graph = tf.get_default_graph()
 
 @app.route('/')
 def index():
@@ -36,8 +33,11 @@ def convertImage(imgData1):
     
 def loadImage(filename):
         img_rows = img_cols = 28
-        img = image.load_img(filename,grayscale=True)
-        img = imresize(img, (28, 28))
+        # img = image.load_img(filename,grayscale=True)
+        # img = imresize(img, (28, 28))
+        img = Image.open(filename) # ADDED BY MY
+        img = ImageOps.grayscale(img) # ADDED BY MY
+        img = img.resize((28, 28)) # ADDED BY MY
         img = image.img_to_array(img)
         img = img / 255
         # Reshape from (28,28) to (1,28,28,1) : 1 sample, 28x28 pixels, 1 channel (B/W)
@@ -50,13 +50,12 @@ def loadImage(filename):
 def predict():
     print("Leo")
     
-    #print(model.summary())
+    # print(model.summary())
     
     imgData = request.get_data()
     convertImage(imgData)
-
     
-    #img = "./9.png"
+    # img = "./9.png"
     img = loadImage("output.png")
     
     with graph.as_default():
@@ -66,7 +65,6 @@ def predict():
         return str(predicted)
 
     return str(response[0])
-
     
     print(imgData)
     
