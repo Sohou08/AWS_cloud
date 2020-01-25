@@ -25,7 +25,27 @@ Clone Your Github
 The result is to get the model called <cnn-mnist>
 ```
 
-## STEP 2 : SET UP WEB SERVER, DEPLOY WEB APPLICATION (FRONT END)
+## STEP 3 : BACK END  
+
+```{r}
+
+In order to make faster, use public subnet to avoid to install Jumbox.
+Launch instance (same VPC and public subnet, size=15, new SG and same KEY)
+sudo apt-get update -y
+
+install anaconda ###### Error getted during conda excution --> conda: command not found
+to resolve it --> source ~/.bashr then retape conda ######
+
+conda create -n FileName
+conda activate FileName
+conda install opencv
+pip install -r requirements.txt
+
+copy cnn-minst / keras_flask.py
+launch keras_flask.py: python keras_flask.py
+
+```
+# STEP 2 : SET UP WEB SERVER, DEPLOY WEB APPLICATION (FRONT END)
 
 ```{r}
 launch ubuntu 18.4 (same VPC and public subnet, size=15, new SG and same KEY)
@@ -52,24 +72,3 @@ End results: ability to draw
 Output
 ![3](https://user-images.githubusercontent.com/51121757/70862737-f3abb400-1f37-11ea-9908-ecea1965da35.PNG)
 ![4](https://user-images.githubusercontent.com/51121757/70862739-f5757780-1f37-11ea-818f-1303978de389.PNG)
-
-## STEP 3 : BACK END  
-
-```{r}
-
-In order to make faster, use public subnet to avoid to install Jumbox.
-Launch instance (same VPC and public subnet, size=15, new SG and same KEY)
-sudo apt-get update -y
-
-install anaconda ###### Error getted during conda excution --> conda: command not found
-to resolve it --> source ~/.bashr then retape conda ######
-
-conda create -n FileName
-conda activate FileName
-conda install opencv
-pip install -r requirements.txt
-
-copy cnn-minst / keras_flask.py
-launch keras_flask.py: python keras_flask.py
-
-```
