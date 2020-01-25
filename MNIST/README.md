@@ -44,7 +44,8 @@ pip install -r requirements.txt
 copy cnn-minst / keras_flask.py
 launch keras_flask.py: python keras_flask.py
 ```
-
+Output
+![Capture](https://user-images.githubusercontent.com/51121757/73125665-536a9580-3fa1-11ea-8ded-ed7a99c6b023.PNG)
 
 # STEP 3 : SET UP WEB SERVER, DEPLOY WEB APPLICATION (FRONT END)
 
