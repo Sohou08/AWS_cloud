@@ -7,7 +7,7 @@ Launch instance (public subnet)
 Update --> sudo apt update 
 Install jupyter through Anaconda --> wget https://repo.anaconda.com/archive/Anaconda3-2019.10-Linux-x86_64.sh
 display anaconda --> bash <File name> -u
-launch conda --> conda init ## Reload the terminale if it's not work
+launch conda --> conda init ## Reload the terminale if it's not work or type <export PATH=~/anaconda3/bin:$PATH>
 Install Jupyter Notebook --> jupyter notebook --ip=0.0.0.0 --no-browser
 Connect to it  
 
