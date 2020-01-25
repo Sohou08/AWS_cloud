@@ -25,7 +25,7 @@ Clone Your Github
 The result is to get the model called <cnn-mnist>
 ```
 
-## STEP 3 : BACK END  
+## STEP 2 : BACK END  
 
 ```{r}
 
@@ -45,7 +45,7 @@ copy cnn-minst / keras_flask.py
 launch keras_flask.py: python keras_flask.py
 
 ```
-# STEP 2 : SET UP WEB SERVER, DEPLOY WEB APPLICATION (FRONT END)
+# STEP 3 : SET UP WEB SERVER, DEPLOY WEB APPLICATION (FRONT END)
 
 ```{r}
 launch ubuntu 18.4 (same VPC and public subnet, size=15, new SG and same KEY)
