@@ -61,14 +61,17 @@ Output
 Clone your Github:
 --> sudo apt-get install git
 --> git clone <Link name>
---> sudo mv AWS_Tutorials/MNIST/index.html /var/www/html/# make yes
+--> sudo cp -r AWS_Tutorials/MNIST/index.html /var/www/html/# make yes
 Get output following after refreshing the web application
 ```
 Output
 ![2](https://user-images.githubusercontent.com/51121757/70862736-f1e1f080-1f37-11ea-8f21-00d88b6a9996.PNG)
 
 ```{r}
---> sudo mv AWS_Tutorials/MNIST/static/ /var/www/html/
+--> sudo cp -r AWS_Tutorials/MNIST/static/ /var/www/html/
+# check the copied files
+ cd /var/www/html/
+ ls
 End results: ability to draw
 ```
 Output
