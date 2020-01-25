@@ -43,8 +43,9 @@ pip install -r requirements.txt
 
 copy cnn-minst / keras_flask.py
 launch keras_flask.py: python keras_flask.py
-
 ```
+
+
 # STEP 3 : SET UP WEB SERVER, DEPLOY WEB APPLICATION (FRONT END)
 
 ```{r}
