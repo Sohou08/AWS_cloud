@@ -1,7 +1,7 @@
 
 ## LABEL PICTURE IN LOCAL COMPUTER WITH AWS RECOGNITION 
 
-##### Requirement 
-*create front end
-*create Back end
+##### Requirement environment
+--> create front end
+--> create Back end
 
