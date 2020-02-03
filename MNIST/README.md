@@ -55,8 +55,10 @@ Output
 ```{r}
 Prepare first the file for Front End Server 
 In the repository front end (https://github.com/Sohou08/AWS_cloud/MNIST/Front end), you will see file "index.html"
-Copy Public IP address of your Back End Server and paste it in indext.html file as below
+Copy Public IP address of your Back End Server and paste it in indext.html file as below (red box)
 ```
+Output
+![2](https://user-images.githubusercontent.com/51121757/73666080-1b96d880-469a-11ea-98a2-5c28afa6f110.PNG)
 
 ```{r}
 launch ubuntu 18.4 (same VPC and public subnet, size=15, new SG and same KEY)
