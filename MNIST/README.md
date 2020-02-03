@@ -3,7 +3,7 @@
 ## STEP 1 : SET UP JUPYTER, TRAINING OUR MODEL, SAVE MODEL (TRAIN MACHINE) ##
 
 ```{r}
-Launch instance (public subnet)
+Create an instance (ubuntu for an public subnet)
 Update --> sudo apt update 
 Install jupyter through Anaconda --> wget https://repo.anaconda.com/archive/Anaconda3-2019.10-Linux-x86_64.sh
 display anaconda --> bash <File name> -u
@@ -16,6 +16,7 @@ Create a new virtual environnment
 --> conda activate nameofyourenv 
 --> conda install ipykernel
 --> ipython kernel install --user --name=nameyouwanttodisplay
+
 Clone Your Github
 --> sudo apt-get install git
 --> git clone <Github link>
@@ -28,6 +29,9 @@ The result is to get the model called <cnn-mnist>
 ## STEP 2 : BACK END  
 
 ```{r}
+ Back End required to put in private server and acces through an Jumbox. 
+ For more details on that, check in Server contains sensitive data
+It is recommended to put this server in Private subnet and access through Bastion Host for more security
 
 In order to make faster, use public subnet to avoid to install Jumbox.
 Launch instance (same VPC and public subnet, size=15, new SG and same KEY)
