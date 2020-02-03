@@ -78,8 +78,7 @@ Output
 # check the copied files
  cd /var/www/html/
  ls
-End results: ability to draw
+End results: ability to draw and predict 
 ```
 Output
-![3](https://user-images.githubusercontent.com/51121757/70862737-f3abb400-1f37-11ea-9908-ecea1965da35.PNG)
-![1](https://user-images.githubusercontent.com/51121757/73137398-663ba380-404f-11ea-9ae8-e8d2e086f3f3.PNG)
+
