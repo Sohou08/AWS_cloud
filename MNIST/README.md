@@ -54,8 +54,11 @@ Output
 
 ```{r}
 Prepare first the file for Front End Server 
+In the repository front end (https://github.com/Sohou08/AWS_cloud/MNIST/Front end), you will see file "index.html"
+Copy Public IP address of your Back End Server and paste it in indext.html file as below
+```
 
-
+```{r}
 launch ubuntu 18.4 (same VPC and public subnet, size=15, new SG and same KEY)
 install apache2 --> sudo apt install apache2
 Check if it works --> In the browser, paste your public IP address ##don't forget to add the port
