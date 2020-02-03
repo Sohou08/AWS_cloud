@@ -29,18 +29,17 @@ The result is to get the model called <cnn-mnist>
 ## STEP 2 : BACK END  
 
 ```{r}
- Back End required to put in private server and acces through an Jumbox. 
- For more details on that, check in Server contains sensitive data
-It is recommended to put this server in Private subnet and access through Bastion Host for more security
-
-In order to make faster, use public subnet to avoid to install Jumbox.
+Back End required to put in private server and acces through an Jumbox. 
+For more details on that, check in --> https://github.com/Sohou08/AWS_cloud/Jump box
+ 
 Launch instance (same VPC and public subnet, size=15, new SG and same KEY)
 sudo apt-get update -y
 
 install anaconda ###### Error getted during conda excution --> conda: command not found
 to resolve it --> source ~/.bashr then retape conda ######
 
-conda create -n FileName
+conda update --all --yes
+conda create -n FileName python=3.6
 conda activate FileName
 conda install opencv
 pip install -r requirements.txt
@@ -54,6 +53,9 @@ Output
 # STEP 3 : SET UP WEB SERVER, DEPLOY WEB APPLICATION (FRONT END)
 
 ```{r}
+Prepare first the file for Front End Server 
+
+
 launch ubuntu 18.4 (same VPC and public subnet, size=15, new SG and same KEY)
 install apache2 --> sudo apt install apache2
 Check if it works --> In the browser, paste your public IP address ##don't forget to add the port
