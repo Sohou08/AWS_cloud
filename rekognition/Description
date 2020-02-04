@@ -1,4 +1,4 @@
-#How access of the functionnality recognition In AWS programmatily by using python
+#How access of the functionnality rekognition In AWS programmatily by using python
 
 First you need to create your own IAM
 
@@ -22,7 +22,7 @@ which the officel library by AWS.
 Check this site to get more information: boto3 Docs 1.9.98 documentation
 In Docs/Available Services /Rekognition Section , if you scroll down, you will see the method  "detect_labels"
 
-Notice that AWS recognition return differents kind of labels and results.
+Notice that AWS rekognition return differents kind of labels and results.
 
 
 
