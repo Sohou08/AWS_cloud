@@ -29,8 +29,8 @@ Notice that AWS rekognition return differents kind of labels and results. """
 import boto3
 
 client = boto3.client ('rekognition',
-                       aws_access_key_id = 'ASIAUN6PUKSPPDUI4SU2',
-                       aws_secret_access_key = 'IH8UIp9pxWspn+yyG880+KbvTM6NvhHsLz9o8uRo',
+                       aws_access_key_id = 'your_key',
+                       aws_secret_access_key = 'your key',
                       region_name = 'us-east-1')
 #Now we need to convert the input image as base64-encoded image bytes
 #Note : if your image is in your local computer you have convert it
