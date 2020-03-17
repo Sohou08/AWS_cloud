@@ -1,8 +1,0 @@
-server {
-    listen         80 default_server;
-    listen         [::]:80 default_server;
-    server_name    _;
-    root           /home/ubuntu/AWS_cloud/rekognition/front-end;
-    index          index.html;
-    try_files $uri /index.html;
-}
