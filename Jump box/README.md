@@ -1,9 +1,9 @@
 
 # Purpose: Set up an Jump box (public instance) in AWS allowing to access in your instance private #
 
-### STEP 1 : Environment requirement (Create VPC, subnet, IGW, Elastic IP, Instances) ###
+## STEP 1 : Environment requirement (Create VPC, subnet, IGW, Elastic IP, Instances) ##
 
-Public subnet
+- Public subnet
 ```{r}
 Create VPC, subnet public, internet gateway (IGW)
 ```
@@ -11,22 +11,22 @@ Output (Public subnet)
 
    ![1](https://user-images.githubusercontent.com/51121757/69834360-c077de00-1231-11ea-9d16-1616a0f32df2.PNG)
 
-Private subnet
+- Private subnet
 ```{r}
-*Private Subnet will be attached to the NAT instance. 
-For that, Create first one route table, go to "edit route table association", choice the previous route table. 
-This one will be replace by the NAT instance --> Obtain (in the route table) "eni-0c56e.....".
+# Private Subnet will be attached to the NAT instance. 
+- Create route table
+- Go to "edit route table association" and choice the previous route table. 
+The latter will be replace by the NAT instance --> Obtain (in the route table) "eni-0c56e.....".
 ```
 Output (Private subnet)
 
    ![9](https://user-images.githubusercontent.com/51121757/70646282-797ce600-1c3e-11ea-8654-a15b32e1c1bf.PNG)
 
-### STEP 2. Set up 3 instances (private, Jumpbox and NAT instance) ###
-The Jumpbox and NAT instance are in public subnet
+## STEP 2. Set up 3 instances (private, Jumpbox and NAT instance) ##
 
-Jumpbox (installed in the public subnet)
+The Jumpbox and NAT instance are in public subnet.
 ```{r}
-Jump box :possibility to add Elastic IP for more flexibility of your instance.
+- Jump box :possibility to add Elastic IP for more flexibility of your instance.
 Otherwise, choice enable in <Auto-assign Public IP> during the set up (Red box in the picture)
 ```
 
@@ -61,7 +61,7 @@ Output
    ![6](https://user-images.githubusercontent.com/51121757/69834408-1056a500-1232-11ea-8ccb-74cce9d3cbee.PNG)
 
 
-### STEP 3. Checking If it’s work or not by pinging google.com in Ubuntu console ###
+## STEP 3. Check If it works or not by pinging google.com in Ubuntu console ##
 
 ```{r}
 * First access in your local directory of Key < JB_key.pem >
