@@ -26,10 +26,9 @@ ipython kernel install --user --name=nameyouwanttodisplay
 sudo apt-get install git
 git clone <Github link>
 Open the <00-mnist-cnn.ipynb> File then choose your kernel (virtual environnment created previously)
-- Run the requirement file: pip install -r AWScloud/MNIST/requirement.txt
-In your virtual environnment
-Run the model and save it
-The final result is the model called <cnn-mnist>
+- Run the requirement file
+pip install -r AWScloud/MNIST/requirement.txt
+In your virtual environnment, run the model and save it. The final result is the model called <cnn-mnist>
 ```
 
 ## STEP 2 : BACK END  
