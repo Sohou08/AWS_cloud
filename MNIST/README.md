@@ -3,27 +3,33 @@
 ## STEP 1 : SET UP JUPYTER, TRAINING OUR MODEL, SAVE MODEL (TRAIN MACHINE) ##
 
 ```{r}
-Create an instance (ubuntu for an public subnet)
-Update --> sudo apt update 
-Install jupyter through Anaconda --> wget https://repo.anaconda.com/archive/Anaconda3-2019.10-Linux-x86_64.sh
-display anaconda --> bash <File name> -u
-launch conda --> conda init ## Reload the terminale if it's not work or type <export PATH=~/anaconda3/bin:$PATH>
-Install Jupyter Notebook --> jupyter notebook --ip=0.0.0.0 --no-browser
+Create an instance (from ubuntu for an public subnet)
+- Update package
+sudo apt update 
+- Install jupyter through Anaconda 
+wget https://repo.anaconda.com/archive/Anaconda3-2019.10-Linux-x86_64.sh
+- display anaconda 
+bash <File name> -u
+- launch conda 
+conda init ## Reload the terminale if it's not work or type <export PATH=~/anaconda3/bin:$PATH>
+- Install Jupyter Notebook 
+jupyter notebook --ip=0.0.0.0 --no-browser
 Connect to it  
 
-Create a new virtual environnment
---> conda create -n nameofyourenv python=3.6
---> conda activate nameofyourenv 
---> conda install ipykernel
---> ipython kernel install --user --name=nameyouwanttodisplay
+- Create a new virtual environnment
+conda create -n nameofyourenv python=3.6
+conda activate nameofyourenv 
+conda install ipykernel
+ipython kernel install --user --name=nameyouwanttodisplay
 
-Clone Your Github
---> sudo apt-get install git
---> git clone <Github link>
---> Open the <00-mnist-cnn.ipynb> File then choose your kernel (virtual environnment created previously)
---> Run the requirement file: pip install -r AWScloud/MNIST/requirement.txt
---> In your virtual environnment:  Run the model and save it
-The result is to get the model called <cnn-mnist>
+- Clone Your Github
+sudo apt-get install git
+git clone <Github link>
+Open the <00-mnist-cnn.ipynb> File then choose your kernel (virtual environnment created previously)
+- Run the requirement file: pip install -r AWScloud/MNIST/requirement.txt
+In your virtual environnment
+Run the model and save it
+The final result is the model called <cnn-mnist>
 ```
 
 ## STEP 2 : BACK END  
