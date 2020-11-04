@@ -59,9 +59,9 @@ Output
 
 ```{r}
 - Prepare the file of Front-End server  
-In front-end folder (https://github.com/Sohou08/AWS_cloud/tree/master/MNIST/front-end), you will see file "index.html"
-Copy Public IP address of your Back End Server and paste it in indext.html file as below (red box)
+In front-end folder (https://github.com/Sohou08/AWS_cloud/tree/master/MNIST/front-end), copy your public IP address of back-end server in index.html file as following (red box)
 ```
+
 Output
 ![2](https://user-images.githubusercontent.com/51121757/73666080-1b96d880-469a-11ea-98a2-5c28afa6f110.PNG)
 
