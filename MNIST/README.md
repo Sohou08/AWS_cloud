@@ -2,34 +2,46 @@
 
 ## STEP 1 : SET UP JUPYTER, TRAINING OUR MODEL, SAVE MODEL (TRAIN MACHINE) ##
 
-```{r}
-Create an instance (from ubuntu for an public subnet)
+- Create an instance (from ubuntu for an public subnet)
 - Update package
+```{r}
 sudo apt update 
+```
 - Install jupyter through Anaconda 
+```{r}
 wget https://repo.anaconda.com/archive/Anaconda3-2019.10-Linux-x86_64.sh
-- display anaconda 
+```
+- Display anaconda 
+```{r}
 bash <File name> -u
+```
 - launch conda 
+```{r}
 conda init # Reload the terminale if it's not work or type <export PATH=~/anaconda3/bin:$PATH>
+```
 - Install Jupyter Notebook 
+```{r}
 jupyter notebook --ip=0.0.0.0 --no-browser
 Connect to it  
-
+```
 - Create a new virtual environnment
+```{r}
 conda create -n nameofyourenv python=3.6
 conda activate nameofyourenv 
 conda install ipykernel
 ipython kernel install --user --name=nameyouwanttodisplay
-
+```
 - Clone Your Github
+```{r}
 sudo apt-get install git
 git clone <Github link>
 Open the <00-mnist-cnn.ipynb> File then choose your kernel (virtual environnment created previously)
-- Run the requirement file
-pip install -r AWScloud/MNIST/requirement.txt
-In your virtual environnment, run the model and save it. The final result is the model called <cnn-mnist>
 ```
+- Run the requirement file
+```{r}
+pip install -r AWScloud/MNIST/requirement.txt
+```
+In your virtual environnment, run the model and save it. The final result is the model called <cnn-mnist>
 
 ## STEP 2 : BACK END  
 
