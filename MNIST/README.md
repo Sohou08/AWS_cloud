@@ -11,7 +11,7 @@ wget https://repo.anaconda.com/archive/Anaconda3-2019.10-Linux-x86_64.sh
 - display anaconda 
 bash <File name> -u
 - launch conda 
-conda init ## Reload the terminale if it's not work or type <export PATH=~/anaconda3/bin:$PATH>
+conda init # Reload the terminale if it's not work or type <export PATH=~/anaconda3/bin:$PATH>
 - Install Jupyter Notebook 
 jupyter notebook --ip=0.0.0.0 --no-browser
 Connect to it  
@@ -34,8 +34,8 @@ In your virtual environnment, run the model and save it. The final result is the
 ## STEP 2 : BACK END  
 
 ```{r}
-Back End required to put in private server and acces through an Jumbox. 
-For more details on that, check in --> https://github.com/Sohou08/AWS_cloud/Jump box
+The back end is placed on a private server and accessed through the Jumpbox. 
+For more details, check in --> https://github.com/Sohou08/AWS_cloud/Jump box
  
 Launch instance (same VPC and public subnet, size=15, new SG and same KEY)
 sudo apt-get update -y
