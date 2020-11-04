@@ -28,7 +28,7 @@ The Jumpbox and NAT instance are in public subnet.
 
 - Jumpbox
 ```{r}
-- Jump box :possibility to add Elastic IP for more flexibility of your instance.
+- Jumpbox :possibility to add Elastic IP for more flexibility of your instance.
 Otherwise, choice enable in <Auto-assign Public IP> during the set up (Red box in the picture)
 ```
 
