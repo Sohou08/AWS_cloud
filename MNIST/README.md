@@ -35,14 +35,14 @@ In your virtual environnment, run the model and save it. The final result is the
 
 ```{r}
 The back end is placed on a private server and accessed through the Jumpbox. 
-For more details, check in --> https://github.com/Sohou08/AWS_cloud/Jump box
+For more details, check in --> https://github.com/Sohou08/AWS_cloud/tree/master/Jump%20box
  
-Launch instance (same VPC and public subnet, size=15, new SG and same KEY)
+- Launch instance
 sudo apt-get update -y
-
-install anaconda ###### Error getted during conda excution --> conda: command not found
-to resolve it --> source ~/.bashr then retape conda ######
-
+Install anaconda # You can get an error when you execute conda command <command not found>
+It can be resolve it through this command below
+source ~/.bashr
+conda 
 conda update --all --yes
 conda create -n FileName python=3.6
 conda activate FileName
@@ -58,8 +58,8 @@ Output
 # STEP 3 : SET UP WEB SERVER, DEPLOY WEB APPLICATION (FRONT END)
 
 ```{r}
-Prepare first the file for Front End Server 
-In the repository front end (https://github.com/Sohou08/AWS_cloud/MNIST/Front end), you will see file "index.html"
+- Prepare the file of Front-End server  
+In front-end folder (https://github.com/Sohou08/AWS_cloud/tree/master/MNIST/front-end), you will see file "index.html"
 Copy Public IP address of your Back End Server and paste it in indext.html file as below (red box)
 ```
 Output
