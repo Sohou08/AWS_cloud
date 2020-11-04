@@ -45,63 +45,66 @@ In your virtual environnment, run the model and save it. The final result is the
 
 ## STEP 2 : BACK END  
 
-```{r}
-The back end is placed on a private server and accessed through the Jumpbox. 
-For more details, check in --> https://github.com/Sohou08/AWS_cloud/tree/master/Jump%20box
- 
+The back end is set up in a private server and accessed through the Jumpbox. 
+For more details, check [here](https://github.com/Sohou08/AWS_cloud/tree/master/Jump%20box) 
 - Launch instance
+```{r}
 sudo apt-get update -y
 Install anaconda # You can get an error when you execute conda command <command not found>
-It can be resolve it through this command below
+```
+The above error could be resolved it as following 
+```{r}
 source ~/.bashr
+```
+Once anaconda is installed, the environment should be prepared
+```{r}
 conda 
 conda update --all --yes
 conda create -n FileName python=3.6
 conda activate FileName
 conda install opencv
 pip install -r requirements.txt
-
 copy cnn-minst / keras_flask.py
-launch keras_flask.py: python keras_flask.py
+# launch keras_flask.py 
+python keras_flask.py
 ```
 Output
 ![Capture](https://user-images.githubusercontent.com/51121757/73125665-536a9580-3fa1-11ea-8ded-ed7a99c6b023.PNG)
 
 # STEP 3 : SET UP WEB SERVER, DEPLOY WEB APPLICATION (FRONT END)
 
-```{r}
 - Prepare the file of Front-End server  
-In front-end folder (https://github.com/Sohou08/AWS_cloud/tree/master/MNIST/front-end), copy your public IP address of back-end server in index.html file as following (red box)
-```
+In front-end [folder](https://github.com/Sohou08/AWS_cloud/tree/master/MNIST/front-end), copy your public IP address of back-end server in index.html file as following (red box)
 
 Output
 ![2](https://user-images.githubusercontent.com/51121757/73666080-1b96d880-469a-11ea-98a2-5c28afa6f110.PNG)
 
+- Launch ubuntu 18.4 (same VPC and public subnet, size=15, new SG and same KEY)
+- Install apache2
 ```{r}
-launch ubuntu 18.4 (same VPC and public subnet, size=15, new SG and same KEY)
-install apache2 --> sudo apt install apache2
-Check if it works --> In the browser, paste your public IP address ##don't forget to add the port
+sudo apt install apache2
 ```
+To check if it works, paste your public IP address with the port in your browser 
 Output
 ![Capture](https://user-images.githubusercontent.com/51121757/70862733-eee70000-1f37-11ea-8cca-523a76b47413.PNG)
 
+- Clone your Github
 ```{r}
-Clone your Github:
---> sudo apt-get install git
---> git clone <Link name>
---> sudo cp -r AWS_Tutorials/MNIST/index.html /var/www/html/# make yes
-Get output following after refreshing the web application
+sudo apt-get install git
+git clone <Link name>
+sudo cp -r AWS_Tutorials/MNIST/index.html /var/www/html/ # make yes
 ```
+Get output following after refreshing the web application
 Output
 ![2](https://user-images.githubusercontent.com/51121757/70862736-f1e1f080-1f37-11ea-8f21-00d88b6a9996.PNG)
 
 ```{r}
---> sudo cp -r AWS_Tutorials/MNIST/static/ /var/www/html/
+sudo cp -r AWS_Tutorials/MNIST/static/ /var/www/html/
 # check the copied files
- cd /var/www/html/
- ls
-End results: ability to draw and predict 
+cd /var/www/html/
+ls
 ```
+The end result is the ability to draw and predict the output
 Output
 ![3](https://user-images.githubusercontent.com/51121757/73665534-2dc44700-4699-11ea-9d9f-aadac6c09a55.PNG)
 
