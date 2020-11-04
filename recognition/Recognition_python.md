@@ -12,9 +12,9 @@ Firstly, you have to create an IAM in AWS. AWS Identity and Access Management (I
 
 In this case, boto 3 library is apppropriate. You can have more [detail(https://boto3.amazonaws.com/v1/documentation/api/latest/index.html)
 
-In Docs/Available Services /Rekognition Section , if you scroll down, you will see the method  "detect_labels"
+In Docs/Available Services /Rekognition Section , if you scroll down, you will see the method  "detect_labels".
 
-Notice that AWS rekognition return differents kind of labels and results
+Notice that AWS rekognition return differents kind of labels and results.
 
 
 ## Example
