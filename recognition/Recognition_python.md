@@ -1,32 +1,25 @@
-#How access of the functionnality rekognition In AWS programmatily by using python
+# Access to the functionnality of AWS rekognition programmatily via python
 
-"" First you need to create your own IAM
+## Use IAM
 
-AWS Identity and Access Management (IAM) is a web service that helps you securely control access to AWS resources. 
- You use IAM to control who is authenticated (signed in) and authorized (has permissions) to use resources. 
-This one complete access to AWS rekognition API.
+Firstly, you have to create an IAM in AWS. AWS Identity and Access Management (IAM) is a web service that helps you securely control access to AWS resources. You use IAM to control who is authenticated (signed in) and authorized (has permissions) to use resources. This one complete access to AWS rekognition API.
 
-Step
+- Go to IAM then User and add user
+- In set persmission, attach the user to AmazonRekognitionFullAccess and AmazonS3FullAccess 
+- Don't forget to download the credentials.csv
 
-Go to IAM--> User --> add user
-In set persmission , you have to attach certain quality to this user to access to AWS rekognition
---> AmazonRekognitionFullAccess
-Where you keep your images in your S3 bucket, for that purpose you need to access
---> AmazonS3FullAccess
-After you create the user before to close the interface, you have to download the credentials.csv 'download.csv' file
+## Object and scene detection using AWS rekognition API
 
-Object and scene detection using AWS rekognition API
+In this case, boto 3 library is apppropriate. You can have more [detail(https://boto3.amazonaws.com/v1/documentation/api/latest/index.html)
 
-How to access this functionality of AWS programming by using python. We can do that by access the boto 3 library 
-which the officel library by AWS.
-Check this site to get more information: boto3 Docs 1.9.98 documentation
 In Docs/Available Services /Rekognition Section , if you scroll down, you will see the method  "detect_labels"
 
-Notice that AWS rekognition return differents kind of labels and results. ""
+Notice that AWS rekognition return differents kind of labels and results
 
 
 ## Example
 
+```python
 import boto3
 
 client = boto3.client ('rekognition',
@@ -43,4 +36,5 @@ with open ('photo.jpg', 'rb') as source_image :
 response = client.detect_labels(Image = {'Bytes': source_bytes},
                                 MaxLabels = 10)
 print (response)
+```
 
