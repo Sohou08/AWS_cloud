@@ -48,14 +48,17 @@ In your virtual environnment, run the model and save it. The final result is the
 The back end is set up in a private server and accessed through the Jumpbox. 
 For more details, check [here](https://github.com/Sohou08/AWS_cloud/tree/master/Jump%20box) 
 - Launch instance
+
 ```{r}
 sudo apt-get update -y
 Install anaconda # You can get an error when you execute conda command <command not found>
 ```
 The above error could be resolved it as following 
+
 ```{r}
 source ~/.bashr
 ```
+
 Once anaconda is installed, the environment should be prepared
 ```{r}
 conda 
@@ -68,6 +71,7 @@ copy cnn-minst / keras_flask.py
 # launch keras_flask.py 
 python keras_flask.py
 ```
+
 Output
 ![Capture](https://user-images.githubusercontent.com/51121757/73125665-536a9580-3fa1-11ea-8ded-ed7a99c6b023.PNG)
 
@@ -81,20 +85,26 @@ Output
 
 - Launch ubuntu 18.4 (same VPC and public subnet, size=15, new SG and same KEY)
 - Install apache2
+
 ```{r}
 sudo apt install apache2
 ```
-To check if it works, paste your public IP address with the port in your browser 
+
+To check if it works, paste your public IP address with the port in your browser.
+
 Output
 ![Capture](https://user-images.githubusercontent.com/51121757/70862733-eee70000-1f37-11ea-8cca-523a76b47413.PNG)
 
 - Clone your Github
+
 ```{r}
 sudo apt-get install git
 git clone <Link name>
 sudo cp -r AWS_Tutorials/MNIST/index.html /var/www/html/ # make yes
 ```
+
 Get output following after refreshing the web application
+
 Output
 ![2](https://user-images.githubusercontent.com/51121757/70862736-f1e1f080-1f37-11ea-8f21-00d88b6a9996.PNG)
 
@@ -104,7 +114,9 @@ sudo cp -r AWS_Tutorials/MNIST/static/ /var/www/html/
 cd /var/www/html/
 ls
 ```
-The end result is the ability to draw and predict the output
+
+The end result is the ability to draw and predict the output.
+
 Output
 ![3](https://user-images.githubusercontent.com/51121757/73665534-2dc44700-4699-11ea-9d9f-aadac6c09a55.PNG)
 
